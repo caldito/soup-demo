@@ -1,0 +1,11 @@
+---
+
+namespaces:
+  - namespace: prod
+    branch: main
+  - namespace: staging
+    branch: develop
+manifests:
+  - deployment.yml
+  - service.yml
+
